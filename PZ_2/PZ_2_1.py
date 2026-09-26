@@ -1,1 +1,1 @@
-print("дфд")
+print("lalala")
