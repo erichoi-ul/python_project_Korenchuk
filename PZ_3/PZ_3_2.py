@@ -17,16 +17,16 @@ while type(x) != int:
 
 while type(y) != int:
     try:
-        y = int(x)
+        y = int(y)
     except:
         print("Неправильно ввели!")
         y = input("Введите координату Y: ")
 
 if x == 0 and y == 0:
     print("0")
-elif x != 0 and y == 0:
+elif y == 0 and x != 0:
     print("1")
-elif x == 0 and y != 0:
+elif y != 0 and x == 0:
     print("2")
 elif x != 0 and y != 0:
     print("3")
